@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=devide-width, initial-scale=1.0">
+        <title>MIT Alpha Delta Phi Society</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Young+Serif&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/54ff4483e1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">WELOCOME</a></li>
+                        <li><a href="">LOCATION</a></li>
+                        <li><a href="">ALUMNI</a></li>
+                        <li><a href="">SIBLINGS</a></li>
+                        <li><a href="">RUSH!</a></li>
+                        <li><a href="">SUMMER</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Alpha Delta Phi Society</h1>
+                <p>Now, we are co-ed!</p>
+                <a href="" class="hero-btn">Visit Us To Learn More</a>
+            </div>
+            
+        </section>
+
+        <section class="welcome">
+            <h1>Letter from the President</h1>
+
+            <p>
+                How many times in your life have you found yourself asking yourself the following question: how can I become the best I can be? If you're like most of us, chances are that, as much as you'd like to ask, there just is never enough time or concentration available to do so. It's MIT. Classes are challenging, research and extracurriculars are everywhere, and in this vortex time is always escaping. That's where Alpha Delta Phi comes in. <br/>
+
+                Here at the Lambda Phi chapter of Alpha Delta Phi we ask ourselves these types of questions and take action and inspiration from them. Boasting a diverse population of multiple cultures and personalities, ADPhi’s mission is to have every single member become the best that they can be. Each brother, by making a promise to brotherhood, is committed to supporting his brethren in striving towards academic, ethical, and personal goals, all while maintaining a vibrant and eclectic social atmosphere that accommodates a multitude of interests. <br/>
+                
+                Want to talk about great poetic works? Then come to, or even take part in, one of our literary pub nights to see us live up to our title as a literary fraternity. Want to decide classes for the semester or look for internship and/or research opportunities over the summer? Then browse our academic wiki, updated yearly with study tips and resources, or reach out to our vast award-winning alumni network that stretches from Silicon Valley to Wall Street to academia and all across the world. Want to commit to self-improvement and becoming the very best you can be? Then come drop by 351 Massachusetts Ave. in Cambridge and meet the brothers of Alpha Delta Phi. Find out what it means to be an Alpha Delt.
+            </p>
+        </section>
+
+        <script>
+            let navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
